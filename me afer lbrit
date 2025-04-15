@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashuro Librin 📚</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ngjyra-kafe: #5d4037;
+      --ngjyra-lehte: #fffaf5;
+      --aksent: #d7ccc8;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: var(--ngjyra-lehte);
+      color: #333;
+    }
+
+    header {
+      background-color: var(--ngjyra-kafe);
+      color: white;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)),
+                  url('https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&w=1400&q=80') no-repeat center center;
+      background-size: cover;
+      color: white;
+      padding: 120px 30px;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .seksion {
+      padding: 50px 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .seksion h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 28px;
+      margin-bottom: 20px;
+      color: var(--ngjyra-kafe);
+    }
+
+    .vepra {
+      background-color: white;
+      padding: 20px;
+      border-left: 5px solid var(--ngjyra-kafe);
+      margin-bottom: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: 0.3s ease;
+    }
+
+    .vepra:hover {
+      transform: translateY(-3px);
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: var(--ngjyra-kafe);
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .call-to-action {
+      text-align: center;
+      background-color: #efebe9;
+      padding: 40px 20px;
+      margin-top: 40px;
+    }
+
+    .call-to-action h3 {
+      font-size: 26px;
+    }
+
+    .call-to-action p {
+      font-size: 18px;
+      margin: 15px 0;
+    }
+
+    footer {
+      background-color: #3e2723;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+  <h1>Dashuro Librin</h1>
+  <nav>
+    <ul>
+      <li><a href="#">Kreu</a></li>
+      <li><a href="#">Veprat</a></li>
+      <li><a href="#">Autorët</a></li>
+      <li><a href="#">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- Hero Banner -->
+<section class="hero">
+  <h2>Leximi nuk është detyrë – është një aventurë 🧠📖</h2>
+  <p>Zbulo veprat që frymëzojnë, sfidojnë dhe formojnë botëkuptimin tënd. Le të lexojmë bashkë!</p>
+</section>
+
+<!-- Seksioni Veprave -->
+<section class="seksion">
+  <h3>Veprat më të rëndësishme të klasave 10 & 11</h3>
+
+  <div class="vepra">
+    <h4>“Bagëti e Bujqësi” – Naim Frashëri</h4>
+    <p>Naimi shpalos dashurinë për vendin, natyrën dhe jetën fshatare – një poemë që të mbush me ndjenjë.</p>
+    <a href="#" class="btn">Lexo më shumë</a>
+  </div>
+
+  <div class="vepra">
+    <h4>“Mjegullat e Tiranës” – Ismail Kadare</h4>
+    <p>Një tregim për njeriun në mes të frikës dhe dëshirës për të qenë i lirë – një reflektim mbi diktaturën.</p>
+    <a href="#" class="btn">Lexo më shumë</a>
+  </div>
+
+  <div class="vepra">
+    <h4>“Don Kishoti i Mançës” – Miguel de Cervantes</h4>
+    <p>Heroi që sfidoi realitetin me idealizmin e tij të çmendur – një vepër që nuk vjetrohet kurrë.</p>
+    <a href="#" class="btn">Lexo më shumë</a>
+  </div>
+</section>
+
+<!-- Thirrje për Veprim -->
+<section class="call-to-action">
+  <h3>Bashkohu me komunitetin e lexuesve!</h3>
+  <p>Na shkruaj përshtypjet e tua për veprat. Çfarë të pëlqeu? Çfarë do të sugjeroje?</p>
+  <a href="#" class="btn">Na kontakto</a>
+</section>
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Dashuro Librin. Faqe e krijuar për dashamirësit e fjalës së shkruar.
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bagëti e Bujqësi - Naim Frashëri</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #5d4037;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #5d4037;
+      font-family: 'Playfair Display', serif;
+    }
+
+    blockquote {
+      background-color: #f3e5f5;
+      padding: 20px;
+      margin: 30px 0;
+      border-left: 5px solid #7b1fa2;
+      font-style: italic;
+    }
+
+    .info-box {
+      background-color: #ffecb3;
+      padding: 20px;
+      margin: 30px 0;
+      border-left: 5px solid #ffa000;
+    }
+
+    a {
+      color: #5d4037;
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #3e2723;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bagëti e Bujqësi</h1>
+  <p>nga Naim Frashëri</p>
+</header>
+
+<div class="content">
+
+  <h2>📝 Përmbledhje</h2>
+  <p>
+    “Bagëti e Bujqësi” është një nga poezitë më të njohura të Rilindjes Kombëtare Shqiptare, shkruar nga Naim Frashëri. 
+    Në këtë poezi, autori shpreh dashurinë për natyrën, fshatin, bujqësinë dhe jetën e thjeshtë të shqiptarëve.
+    Ajo është një letër dashurie për tokën dhe njerëzit e saj.
+  </p>
+
+  <h2>🎯 Temat kryesore</h2>
+  <ul>
+    <li>Dashuria për atdheun dhe natyrën</li>
+    <li>Jeta e fshatarit si simbol i pastërtisë</li>
+    <li>Thjeshtësia dhe ndershmëria e jetës bujqësore</li>
+    <li>Nostalgjia për Shqipërinë</li>
+  </ul>
+
+  <h2>📚 Analizë letrare</h2>
+  <div class="info-box">
+    Poezia është ndërtuar me tone lirike dhe nostalgjike. Gjuha është e pastër, e thjeshtë dhe shumë figurative. 
+    Naimi përdor metafora dhe personifikime për të gjallëruar natyrën dhe emocionet. 
+  </div>
+
+  <blockquote>
+    “Ti Shqipëri, më jep nder, më jep emrin shqipëtar.”
+  </blockquote>
+
+  <h2>💬 Mesazhi i veprës</h2>
+  <p>
+    Vepra përcjell një mesazh të fortë atdhetarie dhe thirrje për të ruajtur vlerat kombëtare. 
+    Ajo është një kujtesë për të mos harruar rrënjët tona dhe për të vlerësuar thjeshtësinë dhe përkushtimin e njeriut ndaj tokës dhe kombit.
+  </p>
+
+  <h2>📎 Linke të dobishme</h2>
+  <ul>
+    <li><a href="https://sq.wikipedia.org/wiki/Bagëti_e_Bujqësi" target="_blank">Wikipedia - Bagëti e Bujqësi</a></li>
+    <li><a href="https://www.youtube.com/watch?v=Gr1JFe9K1Uw" target="_blank">Video shpjeguese</a></li>
+  </ul>
+
+  <p><a href="index.html">&larr; Kthehu tek faqja kryesore</a></p>
+
+</div>
+
+<footer>
+  &copy; 2025 Dashuro Librin | Vepra: Bagëti e Bujqësi
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Autorët - Dashuro Librin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fefaf7;
+      color: #333;
+    }
+
+    header {
+      background-color: #5d4037;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #5d4037;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 30px;
+    }
+
+    .autoret {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+
+    .autor {
+      background-color: white;
+      padding: 20px;
+      border-left: 6px solid #8d6e63;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .autor img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      border: 3px solid #5d4037;
+    }
+
+    .autor h3 {
+      margin: 10px 0;
+      color: #5d4037;
+    }
+
+    .autor p {
+      font-size: 14px;
+    }
+
+    a {
+      text-decoration: none;
+      color: #5d4037;
+      font-weight: bold;
+    }
+
+    footer {
+      background-color: #3e2723;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Autorët</h1>
+  <p>Zbuloni jetën dhe veprat e atyre që kanë shkruar historinë e letërsisë</p>
+</header>
+
+<div class="container">
+  <h2>Autorë të Letërsisë Shqiptare dhe Botërore</h2>
+
+  <div class="autoret">
+
+    <!-- Naim Frashëri -->
+    <div class="autor">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Naim_Frasheri.jpg" alt="Naim Frashëri" />
+      <h3>Naim Frashëri</h3>
+      <p>Poet i Rilindjes Kombëtare. I njohur për veprat “Bagëti e Bujqësi”, “Historia e Skënderbeut”, dhe shumë të tjera. Një ndër figurat më të dashura të kulturës shqiptare.</p>
+      <a href="vepra-bageti.html">Shiko veprën</a>
+    </div>
+
+    <!-- Ismail Kadare -->
+    <div class="autor">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Ismail_Kadare_2008.jpg" alt="Ismail Kadare" />
+      <h3>Ismail Kadare</h3>
+      <p>Shkrimtari më i njohur shqiptar në botë. Veprat e tij si “Mjegullat e Tiranës” dhe “Kronikë në gur” reflektojnë jetën në diktaturë dhe historinë shqiptare.</p>
+      <a href="#">Lexo më shumë</a>
+    </div>
+
+    <!-- Miguel de Cervantes -->
+    <div class="autor">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Cervantes_Jauregui.jpg" alt="Miguel de Cervantes" />
+      <h3>Miguel de Cervantes</h3>
+      <p>Autor i romanit epik “Don Kishoti i Mançës” – një satirë e fortë që mbetet aktuale edhe sot. Një nga baballarët e letërsisë moderne.</p>
+      <a href="#">Lexo më shumë</a>
+    </div>
+
+    <!-- Marin Barleti -->
+    <div class="autor">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Marin_Barleti.jpg/800px-Marin_Barleti.jpg" alt="Marin Barleti" />
+      <h3>Marin Barleti</h3>
+      <p>Historian dhe prift shqiptar, i njohur për veprën “Historia e Skënderbeut”, e cila i dha jetë legjendës së heroit tonë kombëtar.</p>
+      <a href="#">Lexo më shumë</a>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Dashuro Librin | Seksioni: Autorët
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lexuesit Flasin - Dashuro Librin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+    }
+
+    header {
+      background-color: #5d4037;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #5d4037;
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #bbb;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+
+    textarea {
+      height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      background-color: #5d4037;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .komentet {
+      margin-top: 40px;
+    }
+
+    .koment {
+      background-color: #fff;
+      border-left: 5px solid #795548;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+    }
+
+    .koment h4 {
+      margin: 0 0 10px 0;
+      color: #5d4037;
+    }
+
+    footer {
+      background-color: #3e2723;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Lexuesit Flasin</h1>
+  <p>Çfarë libri të ka lënë pa frymë? Shkruaje mendimin tënd më poshtë!</p>
+</header>
+
+<div class="container">
+  <h2>🗣️ Lëre përshtypjen tënde</h2>
+  <form>
+    <div class="form-group">
+      <label for="emri">Emri yt</label>
+      <input type="text" id="emri" placeholder="Shkruaj emrin (ose anonim)"/>
+    </div>
+    <div class="form-group">
+      <label for="komenti">Përshtypja jote</label>
+      <textarea id="komenti" placeholder="Shkruaj një mendim për një libër, autor, apo citat të preferuar..."></textarea>
+    </div>
+    <button type="submit">Dërgo</button>
+  </form>
+
+  <div class="komentet">
+    <h2>💬 Komentet e fundit</h2>
+
+    <div class="koment">
+      <h4>Erisa nga Tirana</h4>
+      <p>“Bagëti e Bujqësi” më bën gjithmonë të ndjej dashuri për natyrën dhe tokën shqiptare. Poezia më çlodh shpirtin.</p>
+    </div>
+
+    <div class="koment">
+      <h4>Anonim</h4>
+      <p>Don Kishoti më ka bërë të qesh dhe të mendoj njëkohësisht. Ironia e Cervantes është gjë e rrallë!</p>
+    </div>
+
+    <div class="koment">
+      <h4>Genti</h4>
+      <p>Kam lexuar “Mjegullat e Tiranës” me një frymë. Një portret i jashtëzakonshëm i Tiranës në diktaturë.</p>
+    </div>
+
+  </div>
+</div>
+
+<footer>
+  &copy; 2025 Dashuro Librin | Komente nga lexuesit
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mjegullat e Tiranës - Ismail Kadare</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #fefaf7;
+      color: #333;
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    header {
+      background-color: #424242;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 5px;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #5d4037;
+      font-family: 'Playfair Display', serif;
+    }
+
+    blockquote {
+      background-color: #e0f2f1;
+      padding: 20px;
+      border-left: 5px solid #00897b;
+      font-style: italic;
+      margin: 30px 0;
+    }
+
+    .info-box {
+      background-color: #fff3e0;
+      padding: 20px;
+      border-left: 5px solid #fb8c00;
+      margin: 30px 0;
+    }
+
+    a {
+      color: #5d4037;
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #212121;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Mjegullat e Tiranës</h1>
+  <p>nga Ismail Kadare</p>
+</header>
+
+<div class="content">
+  <h2>📝 Përmbledhje</h2>
+  <p>
+    “Mjegullat e Tiranës” është një novelë ku Kadare përshkruan atmosferën e zymtë të jetës në një shoqëri të mbyllur, të dominuar nga kontrolli shtetëror dhe frika.
+    Përmes syve të një gazetari, autori eksploron marrëdhëniet midis individit dhe sistemit.
+  </p>
+
+  <h2>🎯 Temat kryesore</h2>
+  <ul>
+    <li>Frika dhe pasiguria në diktaturë</li>
+    <li>Mjegulla si simbol i censurës dhe mungesës së lirisë</li>
+    <li>Konflikti midis të vërtetës dhe gënjeshtrës</li>
+    <li>Izolimi shpirtëror</li>
+  </ul>
+
+  <h2>📚 Analizë</h2>
+  <div class="info-box">
+    Kadare përdor simbolikën e “mjegullës” për të treguar errësirën që mbulon të vërtetën në një regjim totalitar. 
+    Personazhet ndihen të humbur, të bllokuar dhe të kontrolluar, si brenda një mjegulle reale e metaforike.
+  </div>
+
+  <blockquote>
+    “Njerëzit nuk flisnin më me zë të lartë. Edhe zhurmat e rrugës ishin më të buta, sikur vetë qyteti të kishte frikë.”
+  </blockquote>
+
+  <h2>💬 Mesazhi i veprës</h2>
+  <p>
+    Mesazhi i fortë i veprës është paralajmërimi për atë çfarë ndodh kur liria mbytet nga censura dhe kur frika bëhet pjesë e përditshmërisë.
+    Kadare bën një kritikë të heshtur dhe të zgjuar të sistemit diktatorial.
+  </p>
+
+  <h2>📎 Linke të dobishme</h2>
+  <ul>
+    <li><a href="https://sq.wikipedia.org/wiki/Mjegullat_e_Tiranës" target="_blank">Wikipedia - Mjegullat e Tiranës</a></li>
+    <li><a href="https://www.youtube.com/watch?v=dLdP25D1TMI" target="_blank">Analizë video</a></li>
+  </ul>
+
+  <p><a href="index.html">&larr; Kthehu te faqja kryesore</a></p>
+</div>
+
+<footer>
+  &copy; 2025 Dashuro Librin | Vepra: Mjegullat e Tiranës
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sugjero një Libër - Dashuro Librin</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #fefaf7;
+      color: #333;
+      margin: 0;
+    }
+
+    header {
+      background-color: #5d4037;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      margin-bottom: 5px;
+    }
+
+    .content {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #5d4037;
+      font-family: 'Playfair Display', serif;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #bbb;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+
+    textarea {
+      height: 120px;
+      resize: vertical;
+    }
+
+    button {
+      background-color: #5d4037;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #3e2723;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Sugjero një Libër</h1>
+  <p>Na trego cilin libër të lexojmë më pas!</p>
+</header>
+
+<div class="content">
+  <h2>📖 Cili është libri yt i preferuar?</h2>
+  <form>
+    <div class="form-group">
+      <label for="emri">Emri yt</label>
+      <input type="text" id="emri" placeholder="Shkruaj emrin (ose anonim)" />
+    </div>
+    <div class="form-group">
+      <label for="titulli">Titulli i Librit</label>
+      <input type="text" id="titulli" placeholder="Shkruaj titullin e librit" />
+    </div>
+    <div class="form-group">
+      <label for="autori">Autori</label>
+      <input type="text" id="autori" placeholder="Shkruaj emrin e autorit" />
+    </div>
+    <div class="form-group">
+      <label for="pershkrimi">Përshkrimi i Librit</label>
+      <textarea id="pershkrimi" placeholder="Shkruaj një përshkrim të shkurtër për librin..."></textarea>
+    </div>
+    <button type="submit">Dërgo Sugjerimin</button>
+  </form>
+</div>
+
+<footer>
+  &copy; 2025 Dashuro Librin | Sugjero një Libër
+</footer>
+
+</body>
+</html>
+<div style="text-align: center; margin-top: 40px;">
+  <h3>Ndaje këtë faqe me të tjerët:</h3>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://faqja-jote.netlify.app" target="_blank">
+    <button style="background-color:#4267B2; color:white; padding:10px 20px; margin:5px; border:none; border-radius:5px;">Facebook</button>
+  </a>
+
+  <a href="https://twitter.com/intent/tweet?url=https://faqja-jote.netlify.app&text=Shiko këtë faqe të mrekullueshme për librat!" target="_blank">
+    <button style="background-color:#1DA1F2; color:white; padding:10px 20px; margin:5px; border:none; border-radius:5px;">Twitter</button>
+  </a>
+
+  <a href="https://wa.me/?text=Shiko këtë faqe për librat: https://faqja-jote.netlify.app" target="_blank">
+    <button style="background-color:#25D366; color:white; padding:10px 20px; margin:5px; border:none; border-radius:5px;">WhatsApp</button>
+  </a>
+
+  <a href="https://t.me/share/url?url=https://faqja-jote.netlify.app&text=Shiko këtë faqe për librat!" target="_blank">
+    <button style="background-color:#0088cc; color:white; padding:10px 20px; margin:5px; border:none; border-radius:5px;">Telegram</button>
+  </a>
+
+  <a href="mailto:?subject=Shiko këtë faqe për librat&body=Ky është linku: https://faqja-jote.netlify.app" target="_blank">
+    <button style="background-color:#D44638; color:white; padding:10px 20px; margin:5px; border:none; border-radius:5px;">Email</button>
+  </a>
+</div>
